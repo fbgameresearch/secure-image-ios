@@ -9,10 +9,14 @@ target 'SecureImage' do
     pod 'RealmSwift'
     pod 'SwiftKeychainWrapper'
     pod 'Alamofire'
+    pod 'Fabric'
+    pod 'Crashlytics'
 end
 
 target 'SecureImageTests' do
     pod 'RealmSwift'
     pod 'SwiftKeychainWrapper'
     pod 'Alamofire'
+    pod 'Fabric'
+    pod 'Crashlytics'
 end

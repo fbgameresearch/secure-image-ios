@@ -19,6 +19,8 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -34,6 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DataServices.setup()
         NetworkManager.shared.start()
         Theme.apply()
+
+        Fabric.with([Crashlytics.self])
 
         super.init()
     }
