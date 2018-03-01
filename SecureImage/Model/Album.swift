@@ -32,9 +32,7 @@ class Album: Object {
         
         return "Created \(dateFormat.string(from: date))"
     }()
-    @objc dynamic var caseNumber: String?
-    @objc dynamic var address: String?
-    @objc dynamic var comments: String?
+    @objc dynamic var comment: String?
     @objc dynamic var createdAt: Date = Date()
     @objc dynamic var modifiedAt: Date = Date()
     internal let documents = List<Document>()
